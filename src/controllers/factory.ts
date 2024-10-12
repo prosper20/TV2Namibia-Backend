@@ -153,7 +153,10 @@ export const getAll = (Model: Model<any>) =>
     }
 
     let data: Result = {};
-    data[`${Model.modelName}s`] = cleanDocs;
+    let name = `${Model.modelName}s`;
+    if (name === "Adss") name = "Ads"
+    if (name === "Categorys") name = "Categories"
+    data[name] = cleanDocs;
 
     // SEND RESPONSE
     res.status(200).json({
