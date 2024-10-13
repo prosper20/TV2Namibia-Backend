@@ -4,11 +4,9 @@ import { PreviewDetail, Source, IVideo } from "../core/types/models";
 const previewDetailSchema = new Schema<PreviewDetail>({
   previewDate: {
     type: String,
-    required: [true, "Preview date is required"],
   },
   previewTime: {
     type: String,
-    required: [true, "Preview time is required"],
   },
 });
 

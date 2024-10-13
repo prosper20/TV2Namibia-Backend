@@ -44,8 +44,8 @@ export type Source = {
 }
 
 export type PreviewDetail = {
-  previewDate: string;
-  previewTime: string;
+  previewDate?: string;
+  previewTime?: string;
 }
 
 export interface IVideo extends Document {
