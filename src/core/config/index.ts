@@ -9,7 +9,7 @@ const PORT: number = parseInt(e.PORT || "3000", 10);
 
 const ALLOWED_ORIGINS = [
         "http://localhost:3000",
-        "http://localhost:3000",
+        "http://localhost:5000",
       ];
 const DB_URL: string = e.DB_URL || "";
 const DB_NAME: string = e.DB_NAME || "";
