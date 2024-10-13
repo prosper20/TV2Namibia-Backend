@@ -56,7 +56,7 @@ export interface IVideo extends Document {
   id: string;
   isLive: boolean;
   preview: boolean;
-  previewDetails: PreviewDetail;
+  previewDetails?: PreviewDetail;
   restream: boolean;
   sources: Source[];
   subCategory: string;

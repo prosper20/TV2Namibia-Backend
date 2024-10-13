@@ -58,7 +58,6 @@ const videoSchema = new Schema<IVideo>({
   },
   previewDetails: {
     type: previewDetailSchema,
-    required: [true, "Preview details are required"],
   },
   restream: {
     type: Boolean,
